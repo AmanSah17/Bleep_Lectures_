@@ -1,40 +1,87 @@
-# Bleep Lecture 0 - Python Programming Fundamentals
+# Bleep Lecture 0: Python Programming Fundamentals
 
-This repository contains the notebook for the introductory Python programming session delivered as part of the Bleep lecture series. The material focuses on essential Python concepts and hands-on practice for beginners.
+This repository contains beginner-friendly course material for learning Python through Jupyter notebooks. It includes guided lessons, focused practice notebooks, examples for working with modules and files, and a separate set of fundamentals exercises.
 
-## Repository Contents
+The materials are intended for classroom use and self-study. Work through the notebooks in order, run the examples, and change the code to explore how Python behaves.
 
-- `notebooks/Python_Programming_Fundamentals_Complete.ipynb` - Complete notebook covering the Python fundamentals taught in this lecture.
+## Learning objectives
 
-## Google Slides
+By the end of these lessons, learners should be able to:
 
-Presentation link: https://docs.google.com/presentation/d/13HJhHUI5IbTunlnvg4x2b14D6fnLBvagN9sCQKKGE7E/edit?usp=sharing
+- Explain how Python code is written and executed.
+- Use variables, built-in data types, operators, and type conversions.
+- Work with strings and common collection types.
+- Write conditional logic, loops, and reusable functions.
+- Import and use modules.
+- Read from and write to files using Python.
+- Apply foundational concepts to short programming exercises.
 
-## Learning Objectives
+## Getting started
 
-- Understand what Python is and how Python programs are executed.
-- Learn Python syntax, indentation, comments, and docstrings.
-- Work with variables, objects, and core Python data types.
-- Explore strings, input/output, type conversion, and operators.
-- Understand Python collections, conditionals, loops, and functions.
-- Build a strong foundation for writing beginner-friendly Python programs.
+### Requirements
 
-## Discussion Section
+- Python 3.
+- Jupyter Notebook or JupyterLab.
 
-This notebook introduces learners to the core building blocks of Python programming. The discussion begins with the basics of Python as a high-level, readable language and explains how Python source code is translated into bytecode and executed by the Python Virtual Machine. Students are also introduced to Jupyter Notebook workflows, including code cells, markdown cells, and execution flow.
+The lessons use Python's standard library and do not require additional project packages.
 
-The next section focuses on Python syntax and structure. It emphasizes statement writing, indentation rules, comments, and docstrings, which are essential for writing readable and maintainable code. The notebook then moves into variables and object references, helping learners understand that Python variables point to objects and that different objects may share references.
+### Install and launch Jupyter
 
-A major part of the session is dedicated to Python data types, including integers, floats, booleans, strings, lists, tuples, sets, dictionaries, and `None`. Learners are shown how to identify data types, manipulate values, and understand the differences between mutable and immutable objects. String handling is covered with indexing, slicing, formatting, and common methods such as uppercase/lowercase conversion and replacement.
+If Jupyter is not installed in your Python environment, install it with:
 
-The notebook also introduces input and output using `print()` and `input()`, as well as type conversion techniques for converting between strings, integers, and floats. Operators are explained in a practical way, including arithmetic, comparison, logical, assignment, membership, and identity operators, alongside precedence rules that affect expression evaluation.
+```bash
+python -m pip install notebook
+```
 
-Collections are discussed as an important part of Python programming. Lists, tuples, sets, and dictionaries are explained with their characteristics, use cases, and behaviors. The notebook then covers conditional statements and looping structures, showing how to write logic that responds to conditions and processes repeated tasks with `if`, `elif`, `else`, `for`, and `while` loops.
+From the repository directory, start the notebook server:
 
-Finally, the session introduces functions and function arguments, including positional and keyword arguments, return values, and the distinction between `print()` and `return`. This helps learners understand how to structure reusable code and solve problems in a modular, organized way.
+```bash
+jupyter notebook
+```
 
-Overall, the notebook acts as a foundational guide to Python programming with a focus on clarity, beginner understanding, and practical coding habits.
+Alternatively, open the repository in JupyterLab. Select a notebook from `notebooks/` or `Exercise_section/` and run its cells from top to bottom. Some notebooks contain exercises; try solving them before viewing or changing any solution cells.
 
-## Notes
+## Repository contents
 
-This repository is intended for learning and educational use, particularly for foundational Python concepts in a lecture or workshop setting.
+### `notebooks/`
+
+See [`notebooks/README.md`](notebooks/README.md) for the notebook index and a recommended learning sequence.
+
+| Notebook | Main topics |
+| --- | --- |
+| `02_1a_Python_Foundations_01.ipynb` | Python introduction, syntax, values, and foundational examples |
+| `Step_1_1b_Python_Foundations_02.ipynb` | Strings, text operations, and related practice |
+| `1_Python_datatypes_and_functions.ipynb` | Core data types and functions |
+| `1_Python_Programming_Fundamentals_Complete.ipynb` | A consolidated Python programming fundamentals lesson |
+| `02b-Python Crash Course Exercises.ipynb` | Practice problems for introductory Python concepts |
+| `02c_Modules_in_Python.ipynb` | Importing and using Python modules |
+| `02d_Working_with_Files_in_Python.ipynb` | File operations and working with paths |
+
+### `Exercise_section/`
+
+Contains `Exercise_1_Python_Fundamentals_Exercise_Problems.ipynb`, a practice notebook covering variables, arithmetic, strings, slicing, conditions, loops, and basic logic. See [`Exercise_section/README.md`](Exercise_section/README.md) for guidance.
+
+## Suggested learning sequence
+
+1. Start with `02_1a_Python_Foundations_01.ipynb`.
+2. Continue with `Step_1_1b_Python_Foundations_02.ipynb` and `1_Python_datatypes_and_functions.ipynb`.
+3. Use `1_Python_Programming_Fundamentals_Complete.ipynb` as a broader review.
+4. Practice with `02b-Python Crash Course Exercises.ipynb` and the notebook in `Exercise_section/`.
+5. Finish with `02c_Modules_in_Python.ipynb` and `02d_Working_with_Files_in_Python.ipynb`.
+
+The notebooks can also be used independently as topic references.
+
+## Lecture slides
+
+[Open the Google Slides presentation](https://docs.google.com/presentation/d/13HJhHUI5IbTunlnvg4x2b14D6fnLBvagN9sCQKKGE7E/edit?usp=sharing).
+
+## Working with notebooks
+
+- Run cells in order so that variables and imports are defined before they are used.
+- Restart the kernel and run all cells if results seem inconsistent.
+- Save a personal copy before making changes to course examples.
+- Notebook output is included where useful; rerunning a cell may produce different results when it reads input or interacts with files.
+
+## License and use
+
+These materials are provided for educational use in Python lectures, workshops, and self-study. Refer to the original course materials and repository terms when redistributing or adapting them.
