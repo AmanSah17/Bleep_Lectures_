@@ -47,15 +47,16 @@ Alternatively, open the repository in JupyterLab. Select a notebook from `notebo
 
 See [`notebooks/README.md`](notebooks/README.md) for the notebook index and a recommended learning sequence.
 
-| Notebook | Main topics |
-| --- | --- |
-| `02_1a_Python_Foundations_01.ipynb` | Python introduction, syntax, values, and foundational examples |
-| `Step_1_1b_Python_Foundations_02.ipynb` | Strings, text operations, and related practice |
-| `1_Python_datatypes_and_functions.ipynb` | Core data types and functions |
-| `1_Python_Programming_Fundamentals_Complete.ipynb` | A consolidated Python programming fundamentals lesson |
-| `02b-Python Crash Course Exercises.ipynb` | Practice problems for introductory Python concepts |
-| `02c_Modules_in_Python.ipynb` | Importing and using Python modules |
-| `02d_Working_with_Files_in_Python.ipynb` | File operations and working with paths |
+| Section | Notebook | Main topics |
+| --- | --- | --- |
+| 1a | [`02_1a_Python_Foundations_01.ipynb`](notebooks/02_1a_Python_Foundations_01.ipynb) | Python introduction, syntax, variables, and foundational examples |
+| 1b | [`1b_Python_Foundations_02.ipynb`](notebooks/1b_Python_Foundations_02.ipynb) | Strings, lists, indexing, slicing, and related operations |
+| 2a | [`1_Python_datatypes_and_functions.ipynb`](notebooks/1_Python_datatypes_and_functions.ipynb) | Python data types, collections, and functions |
+| 2b | [`02b-Python Crash Course Exercises.ipynb`](notebooks/02b-Python%20Crash%20Course%20Exercises.ipynb) | Practice problems for introductory Python concepts |
+| 2c | Not currently included | No modules lesson notebook is present in this repository |
+| 2d | [`02d_Working_with_Files_in_Python.ipynb`](notebooks/02d_Working_with_Files_in_Python.ipynb) | Reading, writing, and managing files |
+| 3a | [`03_1a_classes_&_methods_OOPS.ipynb`](notebooks/03_1a_classes_%26_methods_OOPS.ipynb) | Classes, methods, encapsulation, inheritance, polymorphism, and abstraction |
+| 3b | [`03_1b_Object_Oriented_Python.ipynb`](notebooks/03_1b_Object_Oriented_Python.ipynb) | Objects, classes, attributes, methods, and class versus instance variables |
 
 ### `Exercise_section/`
 
@@ -63,11 +64,11 @@ Contains `Exercise_1_Python_Fundamentals_Exercise_Problems.ipynb`, a practice no
 
 ## Suggested learning sequence
 
-1. Start with `02_1a_Python_Foundations_01.ipynb`.
-2. Continue with `Step_1_1b_Python_Foundations_02.ipynb` and `1_Python_datatypes_and_functions.ipynb`.
-3. Use `1_Python_Programming_Fundamentals_Complete.ipynb` as a broader review.
-4. Practice with `02b-Python Crash Course Exercises.ipynb` and the notebook in `Exercise_section/`.
-5. Finish with `02c_Modules_in_Python.ipynb` and `02d_Working_with_Files_in_Python.ipynb`.
+1. Work through sections 1a and 1b for Python foundations, strings, and collections.
+2. Continue with sections 2a and 2b for data types, functions, and practice.
+3. Study section 2d for file operations. Section 2c is not currently included.
+4. Continue with sections 3a and 3b to learn object-oriented programming.
+5. Use [`1_Python_Programming_Fundamentals_Complete.ipynb`](notebooks/1_Python_Programming_Fundamentals_Complete.ipynb) or [`Python_Programming_Fundamentals_Complete.ipynb`](notebooks/Python_Programming_Fundamentals_Complete.ipynb) as broader fundamentals reviews, and practice with the notebook in `Exercise_section/`.
 
 The notebooks can also be used independently as topic references.
 
